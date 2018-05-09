@@ -1,49 +1,16 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import HeroImage from '../components/hero-image';
+
 import frontEndBadgePath from '../../images/javascript-badge.png';
 import backEndBadgePath from '../../images/gears.png';
 import devOpsBadgePath from '../../images/tools.png';
-import javascriptBlackBadgePath from '../../images/javascript-badge-black.png';
 
 const IndexPage = () => (
   <div>
     <h1 className="title">Zachary Bennett</h1>
     <h3 className="sub-title">Full-Stack Software Engineer</h3>
-    <div className="hero-img-cntr">
-      <div className="laptop">
-        <div className="screen-case">
-          <div className="webcam"></div>
-          <div className="screen">
-            <div className="vs-code">
-              <div className="toolbar"><div></div><div></div><div></div></div>
-              <div className="code">
-              <span className="cursor-pos"></span>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="base">
-          <div className="power-light"></div> 
-        </div>
-      </div>
-      <div className="coffee-cup-cntr">
-        <div className="handle"></div>
-        <div className="cup">
-          <img src={javascriptBlackBadgePath}/>
-        </div>
-        <div className="steam">
-          <div></div> 
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div className="table-base"></div>
-    </div>
+    <HeroImage/>
     <div className="tag-line is-aqua">
       Passion For People. Passion For Code.
     </div>
