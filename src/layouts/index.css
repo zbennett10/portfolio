@@ -1,3 +1,35 @@
+.certification-grid-cntr {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certification-grid {
+  padding: 50px 50px 100px 50px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 100px;
+  grid-column-gap: 20px;
+}
+
+.card {
+  display: grid;
+  box-shadow: 0 0 2px 2px black;
+}
+
+.card caption {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 0 2px 2px #01B6AD;
+}
+
 .footer {
     color: white;
     margin-top: 1.45rem;
