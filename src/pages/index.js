@@ -12,7 +12,9 @@ const IndexPage = () => (
     <h3 className="sub-title">Full-Stack Software Engineer</h3>
     <HeroImage/>
     <div className="tag-line is-aqua">
-      Passion For People. Passion For Code.
+      <h1>Passion For People. Passion For Code.</h1>
+      <p>An AWS Certified Developer Associate, Javascript afficionado, passionate problem solver and communicator, I love to pioneer innovative software solutions by coupling my unique <em>'big picture'</em> perspective with masterful attention to detail.</p>
+      <h3>My source code is my <em>art</em>.</h3>
     </div>
     <div className="dev-info-grid">
       <div className="front-end-info">
@@ -22,9 +24,11 @@ const IndexPage = () => (
         <br/>
 
         <ul>
+          <li>Vanilla JavaScript</li>
           <li>React</li> 
           <li>Angular</li> 
           <li>Gatsby</li> 
+          <li>Wordpress</li> 
           <li>CSS</li> 
           <li>SCSS</li> 
           <li>HTML</li> 
@@ -42,8 +46,12 @@ const IndexPage = () => (
           <li>Node</li> 
           <li>Scala</li> 
           <li>C#/Java</li>
+          <li>Go</li> 
           <li>SQL</li> 
           <li>MongoDB</li> 
+          <li>DynamoDB</li> 
+          <li>S3</li> 
+          <li>Nginx</li>
         </ul>
       </div>
       <div className="dev-ops-info">

@@ -1,3 +1,29 @@
+.footer {
+    color: white;
+    margin-top: 1.45rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 25px 50px 25px;
+}
+
+.footer .made-with {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.footer .made-with img {
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 5px;
+  height: 45px;
+  width: 75px;
+}
+
 .sm-btn-cntr {
   float: right;
   font-size: 12px;
@@ -322,15 +348,20 @@
 }
 
 .tag-line {
-  height: 400px;
+  height: 600px;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   color: white;
-  font-size: 45px;
-  padding-top: 150px;
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+
+.tag-line p {
+  width: 400px;
+  text-align: center;
 }
 
 .dev-info-grid {
@@ -403,6 +434,7 @@
     margin-bottom: 1.45rem;
     width: 100%;
 }
+
 
 .header h1 {
   color: black;
