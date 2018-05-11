@@ -393,7 +393,6 @@
   align-items: center;
   padding: 50px;
   border-right: 1.5px solid #F6E7D2;
-  border-bottom: 1.5px solid #F6E7D2;
 }
 
 .back-end-info {
@@ -403,7 +402,6 @@
   align-items: center;
   padding: 50px;
   border-right: 1.5px solid #F6E7D2;
-  border-bottom: 1.5px solid #F6E7D2;
 }
 
 .dev-ops-info {
@@ -412,7 +410,6 @@
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  border-bottom: 1.5px solid #F6E7D2;
 }
 
 .sub-title {
