@@ -11,7 +11,7 @@ const IndexPage = () => {
   const skills = {
      frontEnd: ["Vanilla JavaScript", "React", "Angular", "Gatsby", "Wordpress", "CSS", "SCSS", "HTML"],
       backEnd: ["Node","Scala","C#/Java","Go","SQL","MongoDB","DynamoDB","S3","Nginx"],
-      devOps: ["Docker","Jenkins","Ansible", "ELK Stack"]
+      devOps: ["Docker","Jenkins","Ansible", "ELK Stack", "Git"]
   };
 
   return (
